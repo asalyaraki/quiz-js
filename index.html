@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" href="assets/icon/css/fontello.css">
+</head>
+
+<body>
+    <main>
+        <button id="start">Start Quiz</button>
+
+        <!-- info box  -->
+
+        <section id="infoBox">
+            <div>
+                <h1>Some Rules of this Quiz</h1>
+            </div>
+            <div>
+                <div>
+                    <p>1. You will have only</p>
+                    <span>15 seconds</span>
+                    <p>per each question.</p>
+                </div>
+                <p>2. Once you select your answer, it can't be undone.</p>
+                <p>3. You can't select any option once time goes off.</p>
+                <p>4. You can't exit from the Quiz while you're playing.</p>
+                <p>5. You'll get points on the basis of your correct answers.</p>
+            </div>
+            <div>
+                <button id="exit">Exit Quiz</button>
+                <button id="continue">Continue</button>
+            </div>
+        </section>
+
+        <!-- question box  -->
+
+        <section id="questionBox">
+            <div>
+                <h2>Awesome Quiz Application</h2>
+                <div>
+                    <p>Time Left</p>
+                    <span id="timer">15</span>
+                </div>
+            </div>
+            <div></div>
+            <div>
+                <p id="question">1.What does HTML stand for?</p>
+                <div>
+                    <p class="option">Hyper Text Preprocessor</p>
+                </div>
+                <div>
+                    <p class="option">Hyper Text Markup Language</p>
+                </div>
+                <div>
+                    <p class="option">Hyper Text Multiple Language</p>
+                </div>
+                <div>
+                    <p class="option">Hyper Tool Multi Language</p>
+                </div>
+            </div>
+            <div>
+                <p id="counter">1 Of 5 Questions</p>
+                <button id="nextQue">Next Que</button>
+            </div>
+        </section>
+
+        <!-- end of quiz  -->
+
+        <section id="end">
+            <div>
+                <span class="icon-crown"></span>
+            </div>
+            <div>
+                <p>You've completed the Quiz!</p>
+                <p id="endText"></p>
+            </div>
+            <div>
+                <button id="replay">Replay Quiz</button>
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <script src="assets/js/questions.js"></script>
+    <script src="assets/js/master.js"></script>
+       
+
+
+
+</body>
+
+</html>
